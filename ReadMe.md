@@ -1,5 +1,29 @@
 # Python Flask Template
 
+## Running Project
+
+1. Clone the project locally
+
+    ```
+    git clone https://github.com/vivekqpiai/rest-template.git
+    ```
+2. Install dependencies (flask)
+    ```
+    pip install flask (windows)
+    pip3 install flask (macOS)
+    ```
+
+3. goto directory and run the rest.py file
+
+    ```
+    cd rest-template
+    python rest.py (windows)
+    python3 rest.py (macOS)
+    ```
+
+## Explanation
+
+
 rest.py is the root file that starts the server.
 
 We need to create an instance of `Flask` to be able to define the routes.
