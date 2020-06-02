@@ -21,8 +21,11 @@
     python3 rest.py (macOS)
     ```
 
-## Explanation
+4. Import `Python Rest Template.postman_collection.json` in [Postman](https://www.postman.com/downloads/)
 
+5. Have fun.
+
+## Explanation
 
 rest.py is the root file that starts the server.
 
