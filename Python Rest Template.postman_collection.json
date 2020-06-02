@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "342e0b63-850d-4e6b-84f2-3743b12f8752",
+		"name": "Python Rest Template",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add - json body",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"firstNum\": 10,\n\t\"secNum\": 20\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5002/calculator/add",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5002",
+					"path": [
+						"calculator",
+						"add"
+					]
+				},
+				"description": "It shows how frontend can sent the request to python server (flask) with data in json format"
+			},
+			"response": []
+		},
+		{
+			"name": "Subtract - query params",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5002/sub?firstNum=10&secNum=200",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5002",
+					"path": [
+						"sub"
+					],
+					"query": [
+						{
+							"key": "firstNum",
+							"value": "10"
+						},
+						{
+							"key": "secNum",
+							"value": "200"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
